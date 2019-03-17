@@ -2,13 +2,13 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
+    title: 'mentorship-dev',
+    description: 'Mentorship Dev is a site connecting those that can mentor and those that are seeking it!',
+    siteUrl: 'https://mentorship-dev.netlify.com',
     author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
+      name: 'Jared Malcolm',
+      url: 'https://jareddev.com',
+      email: 'me@jareddev.com'
     }
   },
   plugins: [
@@ -44,12 +44,12 @@ module.exports = {
       }
     },
     'gatsby-transformer-json',
-    {
-      resolve: 'gatsby-plugin-canonical-urls',
-      options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-canonical-urls',
+    //   options: {
+    //     siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
+    //   }
+    // },
     'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
     'gatsby-plugin-sharp',
