@@ -1,7 +1,24 @@
 {
   "rulesDirectory": ["tslint-plugin-prettier"],
-  "extends": ["tslint-config-blvd/react", "tslint-config-prettier"],
+  "extends": ["tslint-config-prettier"],
   "rules": {
-    "prettier": true
+    "prettier": true,
+    "adjacent-overload-signatures": true,
+    "align": true,
+    "arrow-return-shorthand": true,
+    "curly": true,
+    "eofline": true,
+    "max-classes-per-file": [true, 1],
+    "interface-name": true,
+    "newline-before-return": true,
+    "newline-per-chained-call": true,
+    "no-bitwise": true,
+    "no-duplicate-imports": true,
+    "no-duplicate-switch-case": true,
+    "no-return-await": true,
+    "no-shadowed-variable": true,
+    "promise-function-async": true,
+    "use-isnan": true,
+    "triple-equals": true
   }
 }
